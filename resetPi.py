@@ -1,3 +1,8 @@
-fp = open('test.txt', 'w')
-fp.write('this is a test')
+import os
+import signal
+
+fp = open('restPID.txt', 'r')
+line = fp.readline()
+print(line)
+os.kill(int(line), signal.SIGTERM)
 fp.close()
