@@ -1,3 +1,3 @@
 import os
 
-os.system('python restapi.py &')
+os.system('python /home/itAdmin/MuscleDeltaController/restapi.py &')
