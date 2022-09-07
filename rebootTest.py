@@ -1,3 +1,5 @@
 import os
 
-os.system('python /home/itAdmin/MuscleDeltaController/restapi.py &')
+path = "../home/itAdmin/MuscleDeltaController"
+os.chdir(path)
+os.system('python restapi.py &')
